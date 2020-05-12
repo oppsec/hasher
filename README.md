@@ -1,7 +1,7 @@
 # 🔑 Hasher
 > A simple base85+sha384 hasher
 
-![Hash](https://i.gyazo.com/f90488074953f3984a799bfdb4663257.mp4)
+![Hash](https://gyazo.com/f90488074953f3984a799bfdb4663257)
 
 # Install
 1. For more easy download, click in the button "Clone or download" and click in "Download ZIP"
