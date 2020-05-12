@@ -1,0 +1,27 @@
+import base64
+import hashlib
+import os
+
+dots = '*****************************************************'
+
+def welcome():
+    os.system('cls')
+    print(dots)
+    print('[!] Welcome to base85 Encoder')
+    print('[!] Please save your hash in a file, we dont decrypt.')
+    print(dots)
+
+def base85e():
+    msg = input('\n[!] Type the message to hash: ')
+    msgb = msg.encode('ascii') # enconding to ascii
+    base64b = base64.b85encode(msgb) # enconding in base85
+    base64m = base64b.decode('ascii') # decoding the ascii
+    
+    sha_signature = \
+        hashlib.sha384(base64m.encode()).hexdigest()
+    print('Encoded key: ' + sha_signature)
+    return sha_signature
+
+
+welcome()
+base85e()
