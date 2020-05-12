@@ -7,7 +7,8 @@ dots = '*****************************************************'
 def welcome():
     os.system('cls')
     print(dots)
-    print('[!] Welcome to base85 Encoder')
+    print('[!] Welcome to Hasher 1.0')
+    print('[!] A base85+sha384 encoder')
     print('[!] Please save your hash in a file, we dont decrypt.')
     print(dots)
 
