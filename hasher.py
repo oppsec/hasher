@@ -1,6 +1,7 @@
 import base64
 import hashlib
 import os
+import time
 
 dots = '*****************************************************'
 
@@ -20,7 +21,8 @@ def base85e():
     
     sha_signature = \
         hashlib.sha384(base64m.encode()).hexdigest()
-    print('Encoded key: ' + sha_signature)
+    print('\nEncoded key: ' + sha_signature)
+    time.sleep(15)
     return sha_signature
 
 
