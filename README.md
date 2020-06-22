@@ -10,10 +10,10 @@
 
 ## How to use
 1. You need to have Python 2.7+ installed. [Python](https://www.python.org/)
-2. After downloading the file, put the `hasher.py` in a folder.
-3. Open your terminal/prompt and set the path to the folder *(example on Windows we use CD: `cd Desktop/coolfolder`*
-4. Type "hasher.py" if not works, try using "python hasher.py"
-5. Done, now you just need type something to hash.
+2. After downloading the file, put all files in a folder.
+3. Open your terminal/prompt and set the path to the folder *(example on Windows: `cd Desktop/yourfolder`*
+4. Type `python install -r requirements.txt`
+5. After, type `hasher.py` if not works, try using `python hasher.py`
 
 # What I used to do this?
 - **base64** | [base64](https://docs.python.org/3/library/base64.html)
